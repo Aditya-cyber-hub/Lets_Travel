@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <header>
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <a href="#" class="logo"><span>P</span>aryatan</a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">Packages</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+    </header>
+    <div class="login-form-container">
+        <i class="fas-fa-times" id="form-close"></i>
+        <form action="">
+            <h3>LogIn</h3>
+            <input type="email" class="box" placeholder="Enter your Email">
+            <input type="password" class="box" placeholder="Enter your Password">
+            <input type="submit" value="Login" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forget Password ? <a href="#">Click here</a></p>
+            <p>Don't have an Account ? <a href="#">Register Now</a></p>
+        </form>
+    </div>
+
+    <section id="home" class="home">
+        <div class="content">
+            <h3>Adventure is Worthwhile and dangerous.</h3>
+            <p>Discover new places with us, Adventure Awaits</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+        <div class="video-container">
+            <video src="video/3.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/travel-concept-with-baggage_23-2149153260.jpg?2&w=826&t=st=1686940761~exp=1686941361~hmac=7b733cbadeb4afa77dc327296bf86571eece32c13ab13820e3b6a0637a1e939d" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>How many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Book Now">
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>P</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/sydney-opera-house-near-beautiful-sea-clear-blue-sky_181624-8472.jpg?w=1060&t=st=1686945525~exp=1686946125~hmac=ce43e61e64712b891e65969e93e2722aebfbcc6b4f279145403cee02ddaa909f" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p>Sydney is the capital city of the state of New South Wales, and the most populous city in Australia.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1534407672671-e77ce1342dc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Jaipur</h3>
+                    <p>Jaipur (Pink City),also known as Paris of India due to the dominant colour scheme of its buildings.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1593993553727-3ec1b39c74f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Hawaii</h3>
+                    <p>Hawaii  is a state in the Western United States, about 2,000 miles from the U.S. mainland in the Pacific Ocean. .</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/statues-great-temple-amun-karnak-temple-luxor-egypt_400112-1071.jpg?w=996" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Egypt</h3>
+                    <p>Egypt (Arabic: مص ) has one of the longest histories of any country, tracing its heritage along the Nile Delta back to the 6th–4th millennia BCE.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>London</h3>
+                    <p>As one of the world's major global cities,London exerts a strong influence on its arts, entertainment, fashion, commerce and finance.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/amazing-autumn-scenery-santa-maddalena-village-with-church-colorful-trees-meadows-rising-sun-rays-dolomite-alps-italy_661209-239.jpg?w=1060&t=st=1686946171~exp=1686946771~hmac=c91a79ed686732ba4ef8994d9f394419e25f79e590628a60686176a717d5e07a" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Switzerland</h3>
+                    <p>Switzerland, officially the Swiss Confederation, is a landlocked country located at the confluence of Western, Central and Southern Europe.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>S</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque inventore laboriosam cum repudiandae vel quod aliquam soluta saepe doloremque error?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food and Drinks</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque inventore laboriosam cum repudiandae vel quod aliquam soluta saepe doloremque error?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety Guide</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque inventore laboriosam cum repudiandae vel quod aliquam soluta saepe doloremque error?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around the World</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque inventore laboriosam cum repudiandae vel quod aliquam soluta saepe doloremque error?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque inventore laboriosam cum repudiandae vel quod aliquam soluta saepe doloremque error?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventures</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque inventore laboriosam cum repudiandae vel quod aliquam soluta saepe doloremque error?</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-japan_335224-213.jpg?w=1060&t=st=1686950099~exp=1686950699~hmac=e7c0c3ad4761cb14109a037ccc65bae9a5449fd9d41cddb357278043f6463861" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/panorama-winter-palace_1398-2666.jpg?w=1380&t=st=1686949783~exp=1686950383~hmac=efbf40ed811df42e70c9c60a597f1be09db3cba0144047adea2d9d160416f705" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/beautiful-wide-shot-eiffel-tower-paris-surrounded-by-water-with-ships-colorful-sky_181624-5118.jpg?w=1060&t=st=1686949824~exp=1686950424~hmac=030c383913d6c151df41998c31f71c825628a81c48ce4985c89dab6f11f3ea8e" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/landscape-shot-buildings-canal-navigli-district-milan-italy_181624-20167.jpg?w=1380&t=st=1686949856~exp=1686950456~hmac=c1ffbcb6ee940e455fe5ca90541d6a606d51e1dda6c9c96cc9b0c2fb10be66f4" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/breathtaking-shot-colosseum-amphitheatre-located-rome-italy_181624-41196.jpg?w=1060&t=st=1686949877~exp=1686950477~hmac=6d0211e80b5ea8815af6b01c139a3470066d55bb8c2214defbcdbf370243fb65" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?w=1060&t=st=1686949894~exp=1686950494~hmac=e1f718422ab2a6e272efeeef7a939edd26ec0a99e9d8ba2e678272122a9c4079" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/beautiful-views-incan-citadel-machu-picchu_181624-16710.jpg?w=1380&t=st=1686949937~exp=1686950537~hmac=a7981e0dbb1207482d7705da2fc1eefb269d8f2beb5efb8e66d968a30393fb3b" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/northern-light-aurora-borealis-kirkjufell-iceland-kirkjufell-mountains-winter_335224-684.jpg?w=1060&t=st=1686949992~exp=1686950592~hmac=362f0ad4d01ee34381d724a7693db17e45573863ef40c78bb47062dcd5ed93bb" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/houseboat-alappuzha-backwaters-kerala_78361-13107.jpg?w=1060" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, fuga.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slider">
+                    <div class="box">
+                        <img src="https://img.freepik.com/free-photo/cute-dark-haired-guy-with-happy-expression-looking-ahead_259150-57638.jpg?w=1060&t=st=1686981092~exp=1686981692~hmac=6b32bd62d8a6084f5efa509011fda8cc0468063d1b9ec02c882f0b443c3a34b2" alt="">
+                        <h3>Ram</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos libero labore vero porro doloribus, ea ducimus veniam est, quisquam eveniet odit velit excepturi et deserunt sit at impedit. Magni!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slider">
+                    <div class="box">
+                        <img src="https://img.freepik.com/free-photo/expressive-redhead-bearded-man-with-hat_176420-32268.jpg?w=740&t=st=1686984924~exp=1686985524~hmac=034eece64f50638ae278ef7da4d5223664892dac1b78e5eb7168aaa77950c173" alt="">
+                        <h3>Smith</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos libero labore vero porro doloribus, ea ducimus veniam est, quisquam eveniet odit velit excepturi et deserunt sit at impedit. Magni!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slider">
+                    <div class="box">
+                        <img src="https://img.freepik.com/free-photo/portrait-smiling-cute-middle-aged-guy-posing-camera-against-gray-background_259150-57804.jpg?w=1060&t=st=1686981139~exp=1686981739~hmac=4bc52d12bd7b6a8dd7d2a3fc0f28df8e5a765736569ed86c80b43e13b3988991" alt="">
+                        <h3>Harpreet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos libero labore vero porro doloribus, ea ducimus veniam est, quisquam eveniet odit velit excepturi et deserunt sit at impedit. Magni!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="https://img.freepik.com/premium-photo/travel-world-monument-concept_117023-15.jpg?w=740" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="message"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+
+
+
+    <section class="brand">'
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+            <div class="carousel-cell"><img src="https://images-workbench.99static.com/IxelZ1bqdYFC8WlrEgMzitTL8ds=/http://s3.amazonaws.com/projects-files/78/7830/783005/96130c8a-c0e2-4a19-bd7f-11455d619ce7.jpg" alt=""></div>
+            <div class="carousel-cell"><img src="https://images-workbench.99static.com/AnH2dZpZjZUZRYdoHDycqpbUNoQ=/99designs-contests-attachments/83/83037/attachment_83037140" alt=""></div>
+            <div class="carousel-cell"><img src="https://images-workbench.99static.com/3ffpSHjccXKUA0C_y-7OkFp6HO4=/99designs-contests-attachments/125/125861/attachment_125861802" alt=""></div>      
+            <div class="carousel-cell"><img src="https://images-workbench.99static.com/hphC-aQ3EICbAWnj_CZIH28O32k=/http://s3.amazonaws.com/projects-files/103/10376/1037665/2eb4a779-782c-4387-94b0-987a41e5e2f7.png" alt=""></div>
+            <div class="carousel-cell"><img src="https://images-workbench.99static.com/-clyB5xw5yIENdc5acjmv-Ma9vU=/99designs-contests-attachments/95/95764/attachment_95764760" alt=""></div>
+            <div class="carousel-cell"><img src="https://images-workbench.99static.com/obN-tnvlsOr9cVGwpyU3-8x-lEM=/99designs-contests-attachments/51/51855/attachment_51855246" alt=""></div>
+          </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>Paryatan,the not-for-profit agency in Jaipur,India makes a difference through travel. We are the Winner of Global Sustainable Tourism. Also we made it to the Semi-Finals in the Awards India Small Business Award, which forms part of the 2022 Indian Community Achievement Awards</p>
+            </div>
+            <div class="box" id="box-1">
+                <h3>Branch Locations</h3>
+                <div class="a-link">
+                    <a href="#"><img class="flag" src="https://img.freepik.com/premium-photo/national-flag-india_114853-51.jpg?w=1060" alt=""></a>
+                    <a href="#"><img class="flag" src="https://img.freepik.com/free-vector/illustration-australia-flag_53876-27116.jpg?w=1380&t=st=1686996959~exp=1686997559~hmac=bd676d866e9127595f376cc73ca57f6fed104a879c6aafd2eac31c2c79ea4cfb" alt=""></a>
+                    <a href="#"><img class="flag" src="https://img.freepik.com/free-vector/illustration-south-africa-flag_53876-27118.jpg?w=1380&t=st=1686997278~exp=1686997878~hmac=e597bac743ba08a3343edbe9183e23127648d0e92b8f4067b96b4f872099254b" alt=""></a>
+                    <a href="#"><img class="flag" src="https://img.freepik.com/free-vector/illustration-norway-flag_53876-27115.jpg?w=1380&t=st=1686997302~exp=1686997902~hmac=10adf2242fc91095cdedb818e00a06cb75abdb10f31ca70d9cfd3c0f69868023" alt=""></a>
+                </div>
+            </div>
+            <div class="box" id="box-1">
+                <h3>Quick Liks</h3>
+                <div class="b-link">
+                    <a href="#">Home</a>
+                    <a href="#">Book</a>
+                    <a href="#">Packages</a>
+                    <a href="#">Service</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Review</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="box" id="box-1">
+                <h3>Follow Us</h3>
+                <div class="c-link">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <h1 class="credit">Created by <span> Aditya Maan</span> | all rights reserved!</h1>
+    </section>
+
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="travel.js"></script>
+</body>
+</html>
